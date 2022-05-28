@@ -6,7 +6,6 @@ services:
     container_name: web_service
     ports:
       - "8000:80"
-    restart: always
     volumes:
       - "./www:/var/www/html"
     depends_on:
