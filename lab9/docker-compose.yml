@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  email:
+    image: maildev/maildev
+    ports:
+      - "8000:1080"
+      - "25:1025"
